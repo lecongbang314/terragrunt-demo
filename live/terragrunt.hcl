@@ -1,3 +1,6 @@
+# Root configuration. This file will define the S3 backend config for all 3 environments. Other possible config may include: variables, providers,... 
+# Reference link: https://terragrunt.gruntwork.io/docs/features/keep-your-remote-state-configuration-dry/#using-the-generate-property-to-generate-terraform-code-for-managing-remote-state
+# Will create the S3 and DynamoDB automatically if not exists
 remote_state {
   backend = "s3"
   generate = {
