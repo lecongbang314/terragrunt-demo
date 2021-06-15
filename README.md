@@ -23,6 +23,7 @@ terragrunt-demo
 ```
 cd live
 terragrunt run-all apply
+terragrunt run-all destroy
 ```
 ## License
 Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
